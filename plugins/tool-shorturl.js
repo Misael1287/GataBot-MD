@@ -55,6 +55,6 @@ conn.reply(m.chat, `💌 *Link:* ${link}`,m)
 }
 handler.help = ['short <url> <type>']
 handler.tags = ['internet']
-handler.command = /^(short(url)?)$/i
+handler.command = /^(short|acortar|corto)$/i
 
 export default handler
