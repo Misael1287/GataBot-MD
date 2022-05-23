@@ -79,6 +79,9 @@ global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
 global.vs = '1.0.16'
 global.version = vs
 
+global.WM = 'OWNER'
+global.wame = WM
+
 global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
 global.gatabot = gt
 
