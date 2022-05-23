@@ -9,5 +9,5 @@ conn.sendButton(m.chat, '𝙲𝙷𝙸𝙲𝙾 𝙲𝚄𝚃𝙴', wm, json.result
 }
 handler.help = ['ppcouple']
 handler.tags = ['internet']
-handler.command = /^(ppcp|ppcouple|pareja)$/i
+handler.command = /^(ppcp|ppcouple)$/i
 export default handler
