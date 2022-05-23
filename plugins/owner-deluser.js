@@ -11,7 +11,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 		var number = text
   }
 
-  if(!text && !m.quoted) return conn.reply(m.chat, `¿Cuál es el número?\nEjemplo: *${usedPrefix}${command} ${global.owner[0]}*\n@tag/reply user`, m)
+  if(!text && !m.quoted) return conn.reply(m.chat, `¿Cuál es el número?\n\nEjemplo: *${usedPrefix}${command} ${global.owner[0]}*`, m)
   //let exists = await conn.isOnWhatsApp(number)
   // if (exists) return conn.reply(m.chat, `*El número objetivo no está registrado en WhatsApp*`, m)
   if(isNaN(number)) return conn.reply(m.chat, `¡El número que ingresaste no es válido!`, m)
