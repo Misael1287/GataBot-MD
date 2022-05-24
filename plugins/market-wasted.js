@@ -4,7 +4,7 @@ conn.sendFile(m.chat, global.API('https://some-random-api.ml', '/canvas/wasted',
 avatar: await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
 comment: text,
 username: conn.getName(m.sender)
-}), 'error.png', '*¡¡𝚂𝚊𝚕𝚟𝚎 𝙷𝚒𝚝𝚕𝚎𝚛!!*', m)
+}), 'error.png', '*¡¡𝙵𝙰𝙻𝙻𝙸𝙳𝙾!!*', m)
 }
 handler.help = ['pixel','difuminar']
 handler.tags = ['maker']
