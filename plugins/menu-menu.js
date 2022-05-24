@@ -355,6 +355,9 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 *<ℍ𝔼ℝℝ𝔸𝕄𝕀𝔼ℕ𝕋𝔸𝕊/>*
 
 ° ඬ⃟🛠️ _${usedPrefix}afk *<motivo>*_
+° ඬ⃟🛠️ _${usedPrefix}setcmd *<sticker|comando>*_
+° ඬ⃟🛠️ _${usedPrefix}delcmd *<sticker>*_
+° ඬ⃟🛠️ _${usedPrefix}listcmd*_
 ° ඬ⃟🛠️ _${usedPrefix}acortar *<enlace / link / url>*_
 ° ඬ⃟🛠️ _${usedPrefix}calc *<operacion math>*_
 ° ඬ⃟🛠️ _${usedPrefix}del *<respondre a mensaje del Bot>*_
