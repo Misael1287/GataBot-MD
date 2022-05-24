@@ -194,6 +194,12 @@ let str = `
 ° ඬ⃟🖍️ _${usedPrefix}itssostupid_
 ° ඬ⃟🖍️ _${usedPrefix}pixelar_
 ° ඬ⃟🖍️ _${usedPrefix}blur_
+° ඬ⃟🖍️ _${usedPrefix}wasted_
+° ඬ⃟🖍️ _${usedPrefix}nazi_
+° ඬ⃟🖍️ _${usedPrefix}glass_
+° ඬ⃟🖍️ _${usedPrefix}carcel_
+° ඬ⃟🖍️ _${usedPrefix}triggered_
+° ඬ⃟🖍️ _${usedPrefix}passed_
 
 *<ℝ𝔸ℕ𝔻𝕆𝕄/>*
 
