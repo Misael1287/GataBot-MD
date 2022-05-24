@@ -8,5 +8,5 @@ username: conn.getName(m.sender)
 }
 handler.help = ['pixel','difuminar']
 handler.tags = ['maker']
-handler.command = /^(camarada)$/i
+handler.command = /^(camarada|nazi)$/i
 export default handler
