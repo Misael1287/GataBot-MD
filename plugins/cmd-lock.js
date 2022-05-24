@@ -10,8 +10,10 @@ module.exports = Object.assign(async function handler(m, { isOwner, isPremium, c
     if (!(hash in sticker)) throw 'Hash no encontrado en la base de datos'
     sticker[hash].locked = !/^un/i.test(command)
     m.reply('¡Hecho!')
-}, {
-    help: ['un', ''].map(v => v + 'lockcmd'),
-    tags: ['database'],
-    command: /^(un)?lockcmd$/i
-})
+}
+handler.help = ['un', ''].map(v => v + 'lockcmd')
+handler.tags = ['database']
+handler.command = ['unlockcmd', 'lockcmd'] 
+handler.rowner = true
+
+export default handler
