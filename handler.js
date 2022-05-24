@@ -645,7 +645,7 @@ export async function participantsUpdate({ id, participants, action }) {
                             (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
                             let apii = await this.getFile(pp)
                             this.sendHydrated(id, text, groupMetadata.subject, apii.data,                                                       'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
-                            [(action == 'add' ? '𝙎𝙚 𝙪𝙣𝙞𝙤 🥳 𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙤' : '𝙉𝙖𝙙𝙞𝙚 𝙡𝙤 𝙦𝙪𝙚𝙧𝙞𝙖 🧐'), '.s https://telegra.ph/file/20f71468a44321a94d8d8.gif'],    
+                            [(action == 'add' ? '𝙎𝙚 𝙪𝙣𝙞𝙤 🥳 𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙤' : '𝙉𝙖𝙙𝙞𝙚 𝙡𝙤 𝙦𝙪𝙚𝙧𝙞𝙖 🧐'), 'bienvenido'],    
                             ['💖 𝙄𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪 | 𝙂𝙤 𝙈𝙚𝙣𝙪', '/menu']
                             ], '', { mentions: [user]})
                            }
