@@ -7,16 +7,31 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
   const url = 'https://www.youtube.com/watch?v=' + videoId
   await conn.sendHydrated(m.chat, `
-📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
-📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${description}
-📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${publishedTime}
-⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
-👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
-🔗 *𝚄𝚁𝙻:* ${url}
-  `.trim(), author, thumbnail, '', '', null, null, [
-    ['𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}yta ${url} yes`],
-    ['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv ${url} yes`]
+📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* 
+${title}
+📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* 
+${description}
+📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* 
+${publishedTime}
+⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* 
+${durationH}
+👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* 
+${viewH}
+🔗 *𝚄𝚁𝙻:* 
+${url}
+  `.trim(), wm, thumbnail, '', '', null, null, [
+    ['𝙑𝙞𝙙𝙚𝙤 | 1️⃣', `${usedPrefix}ytv ${url} yes`],
+    ['𝙑𝙞𝙙𝙚𝙤 | 2️⃣', `${usedPrefix}play.2 ${url} yes`],
+    ['𝘼𝙪𝙙𝙞𝙤 | 1️⃣', `${usedPrefix}yta ${url} yes`]
   ], m)
+    let info = `💝 𝙏𝘼𝙈𝘽𝙄𝙀𝙉 𝙋𝙐𝙀𝘿𝙀 𝙄𝙉𝙏𝙀𝙍𝙀𝙎𝘼𝙍𝙇𝙀.
+💗 𝙔𝙊𝙐 𝙈𝘼𝙔 𝘼𝙇𝙎𝙊 𝘽𝙀 𝙄𝙉𝙏𝙀𝙍𝙀𝙎𝙏𝙀𝘿.`.trim()  
+await conn.sendHydrated(m.chat, info, wm, thumbnail, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
+['𝘼𝙪𝙙𝙞𝙤 | 2️⃣', `${usedPrefix}play.1 ${url} yes`],
+['𝘽𝙪𝙨𝙘𝙖𝙧 | 𝙎𝙚𝙖𝙧𝙘𝙝 | 🌐', `.ytsearch ${url} yes`],
+['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', `/menu`]
+], m,)
+    
 }catch(e){
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
 console.log(e)
