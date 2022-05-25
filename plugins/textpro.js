@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 
 let handler = async (m, { conn, usedPrefix, args }) => {
 	let title = `— *T E X T P R O* —`
-    let caption = 'Seleccione'
+    let caption = 'Seleccione el tipo de logo que quiere'
 const sections = [
    {
 	title: "TIPOS DE logos",
@@ -16,7 +16,7 @@ const sections = [
 	    {title: "3D-water-pipe", rowId: ".textpro 3D-water-pipe " + args[0] + ""},
 	    {title: "Halloween-skeleton", rowId: ".textpro Halloween-skeleton " + args[0] + ""},
 	    {title: "a-spooky-Halloween", rowId: ".textpro a-spooky-Halloween " + args[0] + ""},
-	    {title: "a-cinematic-horror", rowId: ".texpro a-cinematic-horror " + args[0] + ""},
+	    {title: "a-cinematic-horror", rowId: ".textpro a-cinematic-horror " + args[0] + ""},
             {title: "a-sketch", rowId: ".textpro a-sketch " + args[0] + ""},
 	    {title: "blue-circuit-style", rowId: ".textpro blue-circuit-style " + args[0] + ""},
 	    {title: "space", rowId: ".textpro space " + args[0] + ""},
