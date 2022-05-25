@@ -218,7 +218,7 @@ const listMessage = {
   sections
 }
 
-if (!args[0]) return m.reply('¿Dónde está el enlace?')
+if (!args[0]) return m.reply('Falta el texto ejemplo: .logo Gata Bot')
 if (!args[1]) return conn.sendMessage(m.chat, listMessage)
 
 //TINY
