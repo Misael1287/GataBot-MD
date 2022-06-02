@@ -71,6 +71,7 @@ let str = `
 
 *<𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆ℕ 𝔻𝔼𝕃 𝔹𝕆𝕋/>*
 
+° ඬ ⃟ 💟 _${usedPrefix}ucrania_
 ° ඬ ⃟ 💟 _${usedPrefix}grupos_
 ° ඬ ⃟ 💟 _${usedPrefix}cuentasgatabot_
 ° ඬ ⃟ 💟 _${usedPrefix}estado_
@@ -205,6 +206,7 @@ let str = `
 
 ° ඬ⃟👾 _${usedPrefix}cristianoronaldo_
 ° ඬ⃟👾 _${usedPrefix}messi_
+° ඬ⃟👾 _${usedPrefix}militar_
 ° ඬ⃟👾 _${usedPrefix}meme_
 ° ඬ⃟👾 _${usedPrefix}itzy_
 ° ඬ⃟👾 _${usedPrefix}blackpink_
@@ -250,6 +252,7 @@ let str = `
 ° ඬ⃟👾 _${usedPrefix}sasuke_
 ° ඬ⃟👾 _${usedPrefix}sakura_
 ° ඬ⃟👾 _${usedPrefix}cosplay_
+° ඬ⃟👾 _${usedPrefix}cosplay2_
 
 *<ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠/>*
 
@@ -392,9 +395,11 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 *<𝕊𝕋𝕀ℂ𝕂𝔼ℝ𝕊/>*
 
 ° ඬ⃟👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
+° ඬ⃟👽 _${usedPrefix}emojimix2 *<emoji>*_
 ° ඬ⃟👽 _${usedPrefix}attp *<texto>*_
 ° ඬ⃟👽 _${usedPrefix}ttp *<texto>*_
 ° ඬ⃟👽 _${usedPrefix}pat *<@tag>_
+° ඬ⃟👽 _${usedPrefix}giño *<@tag>_
 ° ඬ⃟👽 _${usedPrefix}slap *<@tag>_
 ° ඬ⃟👽 _${usedPrefix}kiss *<@tag>*_
 ° ඬ⃟👽 _${usedPrefix}abrazo *<@tag>*_
