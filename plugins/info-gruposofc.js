@@ -13,6 +13,8 @@ let str = `
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 🐈 *${nnn}*\n
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+🐈 *https://chat.whatsapp.com/L5KtgkfmTnzAZVTviD73Ty*\n
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 *Por favor, no ingresar con números de Bots, y mantener el respeto.*
 `.trim()
   
